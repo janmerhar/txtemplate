@@ -4,32 +4,27 @@
   },
   "dependencies": {
     "commander": "^7.0.0",
-    "csv-stringify": "^5.6.1",
-    "dateformat": "^4.5.1",
-    "pdf-merger-js": "^3.0.5"
+    "dateformat": "^4.5.1"
   },
   "devDependencies": {
     "@types/dateformat": "^3.0.1",
-    "@types/node": "^14.14.27",
-    "node-tsc": "0.0.14",
-    "nodemon": "^2.0.12",
-    "highlight.js": "^11.1.0"
+    "@types/node": "^14.14.27"
   },
-  "name": "LaTeX_manipulator",
+  "name": "LaTeX_template",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "template.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janmerhar/LaTeX_manipulator.git"
+    "url": "git+https://github.com/janmerhar/LaTeX_template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/janmerhar/LaTeX_manipulator/issues"
+    "url": "https://github.com/janmerhar/LaTeX_template/issues"
   },
-  "homepage": "https://github.com/janmerhar/LaTeX_manipulator#readme",
+  "homepage": "https://github.com/janmerhar/LaTeX_template#readme",
   "nodemonConfig": {
     "ignore": [
       "*.csv",
