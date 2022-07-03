@@ -40,7 +40,7 @@ templateCommander
     CommandFunctions.myParseInt
   )
 
-templateCommander.parse(process.argv)
+// templateCommander.parse(process.argv)
 // console.log("Options: \n", templateCommander.opts())
 
 export { templateCommander }
