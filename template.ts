@@ -1,5 +1,5 @@
-import { LaTeXTemplate } from "../template/LaTeXTemplate"
-import { templateCommander } from "../cli_args/cli_template"
+import { LaTeXTemplate } from "./template/LaTeXTemplate"
+import { templateCommander } from "./cli_args/cli_template"
 
 const templateOpts = templateCommander.opts()
 const latex = new LaTeXTemplate(templateOpts.fileName)
