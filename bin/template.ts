@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node-script
+#!/usr/bin/env node
 
 import { LaTeXTemplate } from "../LaTeXTemplate"
 import { templateCommander } from "../cli_args/cli_template"
