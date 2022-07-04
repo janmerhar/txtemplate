@@ -1,4 +1,4 @@
-import { LaTeXTemplate } from "../template/LaTeXTemplate"
+import { LaTeXTemplate } from "../LaTeXTemplate"
 
 describe("LaTeXTemplate", () => {
   let template
