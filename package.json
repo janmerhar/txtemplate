@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "compile": "tsc -w",
+    "build": "tsc",
     "test": "jest"
   },
   "dependencies": {
@@ -12,23 +12,25 @@
     "@types/jest": "^28.1.4",
     "@types/node": "^14.14.27",
     "jest": "^28.1.2",
-    "ts-jest": "^28.0.5"
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
   },
-  "name": "LaTeX_template",
-  "description": "",
+  "name": "txtemplate",
+  "description": "A command line tool for generating empty LaTeX files",
   "version": "1.0.0",
   "main": "template.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janmerhar/LaTeX_template.git"
+    "url": "git+https://github.com/janmerhar/txtemplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/janmerhar/LaTeX_template/issues"
+    "url": "https://github.com/janmerhar/txtemplate/issues"
   },
-  "homepage": "https://github.com/janmerhar/LaTeX_template#readme",
+  "homepage": "https://github.com/janmerhar/txtemplate#readme",
   "nodemonConfig": {
     "ignore": [
       "*.csv",

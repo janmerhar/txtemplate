@@ -1,3 +1,5 @@
+#!/usr/bin/env ts-node
+
 import { LaTeXTemplate } from "../LaTeXTemplate"
 import { templateCommander } from "../cli_args/cli_template"
 
