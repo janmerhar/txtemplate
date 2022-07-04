@@ -3,6 +3,9 @@
     "build": "tsc",
     "test": "jest"
   },
+  "bin": {
+    "template": "./bin/template.ts"
+  },
   "dependencies": {
     "commander": "^7.0.0",
     "dateformat": "^4.5.1"
@@ -19,14 +22,14 @@
   "name": "txtemplate",
   "description": "A command line tool for generating empty LaTeX files",
   "version": "1.0.0",
-  "main": "template.js",
+  "main": "LaTeXTemplate.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/janmerhar/txtemplate.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jan Merhar",
+  "license": "",
   "bugs": {
     "url": "https://github.com/janmerhar/txtemplate/issues"
   },
