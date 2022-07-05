@@ -2,7 +2,7 @@
   "scripts": {
     "compile": "tsc -w",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest dist"
   },
   "bin": {
     "template": "./dist/bin/template.js"
@@ -22,7 +22,7 @@
   },
   "name": "txtemplate",
   "description": "A command line tool for generating empty LaTeX files",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./dist/LaTeXTemplate.js",
   "repository": {
     "type": "git",
