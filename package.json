@@ -22,7 +22,7 @@
   },
   "name": "txtemplate",
   "description": "A command line tool for generating empty LaTeX files",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/LaTeXTemplate.js",
   "repository": {
     "type": "git",
