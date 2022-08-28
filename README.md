@@ -2,9 +2,7 @@
 
 This project aims to automate the process of creating Anki cards. To create cards, in batch, you can write a simple LaTeX document which is then transformed into markdown and csv file. The latter is used to be imported into Anki. The former is simplified LaTeX document for reading without compiler LaTeX document.
 
-## Template
-
-Easy to use command line interface for creating a template that is used to batch write Anki cards in LaTeX format. Although not necessary, yet very handy and time saving.
+Easy to use command line interface for creating a template that is used to batch write Anki cards in LaTeX format. Although not necessary, yet very handy and time saving. You can easily create Anki cards using [txmanipulator](https://github.com/janmerhar/txmanipulator).
 
 ## Built with
 
@@ -14,7 +12,7 @@ Easy to use command line interface for creating a template that is used to batch
 
 # Getting started
 
-To get started you need installed Node.js LTS 14.x or later alongsite other tools.
+To get started you need installed Node.js LTS 14.x or later alongside other tools.
 
 ## Prerequisites
 
@@ -48,11 +46,15 @@ npm install typescript -g
 npm run build
 ```
 
+6. Compiled JavaScript code will be available inside `dist` folder.
+
 # Usage
 
-Scripts are located in `bin` folder. You can run them with `node`. Note, you need to compile TypeScript into JavaScript before you can run them.
+Script is located in `bin` folder. You can run it with `ts-node`. Note, if you want to run JavaScript script, you fill find compiled executable in `dist/bin` folder.
 
 ## Template CLI
+
+To use CLI you need to install package from NPM using `npm install txtemplate -g`. Afterwards you can run the CLI using `txtemplate` command.
 
 ```
 Usage: template [options]
