@@ -70,6 +70,10 @@ Options:
 
 ```
 
+# Usage example
+
+![Usage example](documentation/txtemplate_cli_example.gif?raw=true "Usage example")
+
 ## Contributing
 
 To contribute to this project follow these steps:
