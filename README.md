@@ -50,7 +50,7 @@ npm run build
 
 # Usage
 
-Script is located in `bin` folder. You can run it with `ts-node`. Note, if you want to run JavaScript script, you fill find compiled executable in `dist/bin` folder.
+Script is located in `bin` folder. You can run it with `ts-node`. Note, if you want to run JavaScript script, you will find compiled executable in `dist/bin` folder.
 
 ## Template CLI
 
